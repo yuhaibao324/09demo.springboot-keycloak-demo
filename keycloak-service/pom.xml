@@ -37,10 +37,13 @@
             <artifactId>logback-classic</artifactId>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.keycloak/keycloak-spring-boot-adapter -->
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-spring-boot-adapter</artifactId>
+            <version>4.5.0.Final</version>
         </dependency>
+
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-tomcat8-adapter</artifactId>
